@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Changa&family=Inter:wght@600&family=Work+Sans&display=swap');
+
+.links{
+    display: grid;
+    width: 100%;
+}
+.links a{
+    width: 80%;
+    background-color: #EAECF0;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px 0px;
+    justify-self: center;
+}
+.links a p{
+    margin: 0;
+    color:#101828;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+}
+.logos img{
+    height: 30px;
+    margin: 10px 20px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 80px;
+    margin-top: 50px;
+    border-top: 1px solid rgba(70, 66, 66, 0.082);
+    place-items: center;
+}
+.footer img{
+    height: 25px;
+
+}
+.footer p{
+    color: #667085;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .links a{
+        width: 95%;
+    }
+    .footer{
+        display: none;
+    }
+}

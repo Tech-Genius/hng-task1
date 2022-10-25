@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Changa&family=Inter:wght@600&family=Work+Sans&display=swap');
+
+.notfound_wrapper{
+    display: grid;
+    place-items: center;
+    height: 85vh;
+    justify-content: start;
+    padding: 0px 70px;
+    overflow: hidden;
+}
+.not_found{
+display: grid;
+text-align: start !important;
+
+justify-content: start;
+
+}
+
+.not_found h5{
+    margin: 0;
+    color: #5925DC;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.not_found h3{
+    margin: 0;
+    color: #101828;
+    font-size: 40px;
+    font-family: 'inter', sans-serif;
+    word-spacing: 2px;
+}
+
+.not_found p{
+    color: #475467;
+    font-family: 'inter', sans-serif;
+    font-size: 17px;
+}
+.buttons button{
+    color: #101828;
+    border: 1px solid #D0D5DD;
+    background-image: #FFFFFF;
+    margin: 10px 5px;
+    padding: 16px 28px;
+    border-radius: 8px;
+    outline: none !important;
+}
+
+.buttons #home{
+    background-color: #5925DC;
+    color: white;
+}
+
+
+
+
+
+
+@media screen and (max-width:767px){
+  .notfound_wrapper{
+    padding: 0px;
+  }
+  .not_found h3{
+    font-size: 35;
+  }
+  .buttons button{
+    width: 100%;
+  }
+}
