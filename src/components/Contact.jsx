@@ -1,7 +1,10 @@
 import './assets/css/Contact.css'
 import { Link } from 'react-router-dom'
+import zuri_logo from './assets/images/zuri_intern_logo.png'
+import I4G_logo from './assets/images/I4G.png'
 const Contact = () => {
     return (
+        <>
         <div className="contact_page_wrapper">
         <div className="contact">
             <h3>Contact</h3>
@@ -63,7 +66,13 @@ const Contact = () => {
 
         </div>
 
+<div className="contact_footer">
+<img src={zuri_logo} alt="" />
+<p>HNG Internship 9 Frontend Task</p>
+<img src={I4G_logo} alt="" />
+</div>
 
+</>
 
     )
 }

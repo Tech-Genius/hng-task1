@@ -96,10 +96,26 @@ border: 1px solid #1570EF;
     background-color: #1570EF;
     color: white;
     font-family: 'Inter', sans-serif;
+    outline: none;
 }
 
 
+.contact_footer{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 80px;
+    margin-top: 50px;
+    border-top: 1px solid rgba(70, 66, 66, 0.082);
+    place-items: center;
+    flex-wrap: wrap;
+}
+.contact_footer img{
+    height: 25px;
 
+}
+.contact_footer p{
+    color: #667085;
+}
 
 
 
@@ -136,7 +152,21 @@ border: 1px solid #1570EF;
     .form_item input, .form_item textarea{
         width: auto ;    
     }
-    
+
+
+    .contact_footer{
+        display: grid;
+        justify-content: start;
+        place-items: start;
+        padding:20px 10px;
+        width: 100%;
+    }
+p{
+    font-size: 15px !important;
+}
+    .contact_footer p{
+        text-align: start;
+    }
 
  
 }
