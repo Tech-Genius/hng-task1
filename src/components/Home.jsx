@@ -4,6 +4,7 @@ import github from './assets/images/github.png'
 import './assets/css/Home.css'
 import zuri_logo from './assets/images/zuri_intern_logo.png'
 import I4G_logo from './assets/images/I4G.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -26,6 +27,8 @@ const Home = () => {
                 <a href="https://books.zuri.team/python-for-beginners?ref_id=Coderender" target='_blank'><p>Python Books</p></a>
                 <a href="https://background.zuri.team" id='pitch' target='_blank'><p>Background Check for Code</p></a>
                 <a href="https://books.zuri.team/design-rules" target='_blank' id='book_design'><p>Design Books</p></a>
+                <a href="/contact" id='book_design'><p>Contact Me</p></a>
+                
 
             </div>
 

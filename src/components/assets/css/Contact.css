@@ -1,0 +1,142 @@
+.contact_page_wrapper{
+    display: grid;
+}
+.contact{
+    text-align: start;
+    width: 60%;
+    justify-self: center;
+}
+
+.contact h3{
+    font-size: 25px;
+    color:  #101828;
+    font-family: 'Inter', sans-serif;
+}
+.contact p{
+    color: #475467;
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.form_wrapper{
+    margin-top: 50px;
+}
+
+.name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+}
+.name .form_item{
+    min-width: 47%;
+}
+
+.form_item{
+    display: grid;
+    padding: 10px 0px;
+    width: auto;
+}
+
+.form_item input{
+    width: 100% ;
+    padding: 15px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    outline: none;
+    background-color:  #FFFFFF;
+    color: #667085;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+.form_item input:focus{
+border: 1px solid #1570EF;
+}
+
+.form_item textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    outline: none;
+    background-color:  #FFFFFF;
+    color: #667085;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.form_item label{
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.data{
+    display: flex;
+    place-items: center;
+}
+.data p{
+    margin: 0;
+    color: #475467;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.data input.checkbox{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.contact .button button{
+    background-color: #1570EF;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1100px){
+    .contact{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .contact{
+        width: 95%;
+        justify-self: center;       
+    }
+
+    .name{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .name .form_item{
+       width: 100%;    
+    }
+
+    .form_item input, .form_item textarea{
+        width: auto ;    
+    }
+    
+
+ 
+}
