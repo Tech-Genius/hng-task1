@@ -27,7 +27,7 @@ const Home = () => {
                 <a href="https://books.zuri.team/python-for-beginners?ref_id=Coderender" target='_blank'><p>Python Books</p></a>
                 <a href="https://background.zuri.team" id='pitch' target='_blank'><p>Background Check for Code</p></a>
                 <a href="https://books.zuri.team/design-rules" target='_blank' id='book_design'><p>Design Books</p></a>
-                <a href="/contact" id='book_design'><p>Contact Me</p></a>
+                <Link id='contact' to='/contact'><p>Contact Me</p></Link>
                 
 
             </div>

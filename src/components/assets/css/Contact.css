@@ -39,7 +39,7 @@
     width: auto;
 }
 
-.form_item input{
+.form_item input[type= 'text'], [type= 'email']{
     width: 100% ;
     padding: 15px;
     border: 1px solid #D0D5DD;
@@ -51,8 +51,28 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 13px;
-    
 }
+
+.form_item input:focus:invalid{
+    border: 1px solid red; 
+}
+ 
+.form_item input:valid{
+    border: 1px solid #1570EF; 
+}
+ 
+
+
+
+.form_item textarea:valid{
+    border: 1px solid #1570EF; 
+}
+
+
+
+
+
+
 .form_item input:focus{
 border: 1px solid #1570EF;
 }
@@ -76,6 +96,7 @@ border: 1px solid #1570EF;
 }
 
 
+
 .data{
     display: flex;
     place-items: center;
@@ -91,6 +112,7 @@ border: 1px solid #1570EF;
     width: 20px;
     margin-right: 10px;
 }
+
 
 .contact .button button{
     background-color: #1570EF;

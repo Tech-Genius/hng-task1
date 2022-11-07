@@ -15,21 +15,22 @@ const Contact = () => {
                 <form action="">
 
                     <div className="name">
-                        <div className="form_item" id='fname'>
+                        <div className="form_item" id='first_name'>
                             <label htmlFor="first_name">First Name</label>
-                            <input type="text" placeholder="Enter your first name" />
+                            <input type="text" placeholder="Enter your first name" id='first_name' required/>
                         </div>
 
-                        <div className="form_item" id='lname'>
+                        <div className="form_item" id='last_name'>
                         <label htmlFor="last_name">Last Name</label>
-                            <input type="text" placeholder="Enter your last name" />
+                            <input type="text" placeholder="Enter your last name" id='last_name' required/>
                         </div>
                     </div>
 
                     <div className="email">
                         <div className="form_item">
                         <label htmlFor="email">Email</label>
-                            <input type="email" placeholder="yourname@email.com" />
+                            <input type="email" placeholder="yourname@email.com" required id='email' />
+                          
                         </div>
                     </div>
 
@@ -37,14 +38,14 @@ const Contact = () => {
 
                         <div className="form_item">
                         <label htmlFor="message">Message</label>
-                            <textarea name="message" id="" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
+                            <textarea name="message" id="message" required cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
                         </div>
                     </div>
 
                     
                     <div className="data">
                         <div className="form_item_checkbox">
-                            <input type="checkbox" className='checkbox' />
+                            <input type="checkbox" className='checkbox' required/>
                         </div>
 
                         <div className="form_item">
@@ -54,7 +55,7 @@ const Contact = () => {
 
                     <div className="button">
                         <div className="form_item">
-                            <button type="submit">Send Message</button>
+                            <button type="submit" id='btn__submit'>Send Message</button>
                         </div>
                     </div>
 
